@@ -10,9 +10,10 @@ import UIKit
 
 class Controller {
 
+    let interactor = Interactor()
     
     func searchBarChangedWithText(text: String) {
-        Interactor.getDataWtihSearchText(text: text) { (photos, error) in
+        interactor.getDataWtihSearchText(text: text) { (photos, error) in
             
         }
     }

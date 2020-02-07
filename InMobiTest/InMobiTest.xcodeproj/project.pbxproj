@@ -20,6 +20,7 @@
 		32204BAA23ED8AD800E49290 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204BA923ED8AD800E49290 /* Presenter.swift */; };
 		32204BAC23ED8B0800E49290 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204BAB23ED8B0800E49290 /* Interactor.swift */; };
 		32D4741423ED8D3C00FA5A7D /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4741323ED8D3C00FA5A7D /* Controller.swift */; };
+		32D4741623ED8E2A00FA5A7D /* Gateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4741523ED8E2A00FA5A7D /* Gateway.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		32204BA923ED8AD800E49290 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		32204BAB23ED8B0800E49290 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 		32D4741323ED8D3C00FA5A7D /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		32D4741523ED8E2A00FA5A7D /* Gateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gateway.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				32204BA923ED8AD800E49290 /* Presenter.swift */,
 				32204BAB23ED8B0800E49290 /* Interactor.swift */,
 				32D4741323ED8D3C00FA5A7D /* Controller.swift */,
+				32D4741523ED8E2A00FA5A7D /* Gateway.swift */,
 			);
 			path = Logic;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				32204BA723ED89C900E49290 /* PhotoModel.swift in Sources */,
 				32204BAA23ED8AD800E49290 /* Presenter.swift in Sources */,
 				32204B9123ED860000E49290 /* ViewController.swift in Sources */,
+				32D4741623ED8E2A00FA5A7D /* Gateway.swift in Sources */,
 				32204BA523ED89BB00E49290 /* PhotosModel.swift in Sources */,
 				32204B8D23ED860000E49290 /* AppDelegate.swift in Sources */,
 				32204BA223ED864F00E49290 /* TestViewController.swift in Sources */,
