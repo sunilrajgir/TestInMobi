@@ -39,10 +39,8 @@ extension TestViewController : UICollectionViewDelegate, UICollectionViewDataSou
 }
 
 extension TestViewController : UISearchBarDelegate {
-    
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
     }
-    
 }
 
