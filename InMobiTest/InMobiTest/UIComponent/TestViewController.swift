@@ -13,6 +13,8 @@ class TestViewController: UIViewController {
     
     @IBOutlet var searcBar: UISearchBar!
     
+    let controller = Controller()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
@@ -40,7 +42,7 @@ extension TestViewController : UICollectionViewDelegate, UICollectionViewDataSou
 
 extension TestViewController : UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        
+        controller.searchBarChangedWithText(text: searchText)
     }
 }
 

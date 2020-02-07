@@ -17,6 +17,9 @@
 		32204BA323ED864F00E49290 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32204BA123ED864F00E49290 /* TestViewController.xib */; };
 		32204BA523ED89BB00E49290 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204BA423ED89BB00E49290 /* PhotosModel.swift */; };
 		32204BA723ED89C900E49290 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204BA623ED89C900E49290 /* PhotoModel.swift */; };
+		32204BAA23ED8AD800E49290 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204BA923ED8AD800E49290 /* Presenter.swift */; };
+		32204BAC23ED8B0800E49290 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32204BAB23ED8B0800E49290 /* Interactor.swift */; };
+		32D4741423ED8D3C00FA5A7D /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4741323ED8D3C00FA5A7D /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		32204BA123ED864F00E49290 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		32204BA423ED89BB00E49290 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
 		32204BA623ED89C900E49290 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		32204BA923ED8AD800E49290 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		32204BAB23ED8B0800E49290 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		32D4741323ED8D3C00FA5A7D /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 		32204B8B23ED860000E49290 /* InMobiTest */ = {
 			isa = PBXGroup;
 			children = (
+				32204BAE23ED8BA400E49290 /* Logic */,
+				32204BAD23ED8B9900E49290 /* UIComponent */,
 				32204BA823ED8A9C00E49290 /* ModelClass */,
 				32204B8C23ED860000E49290 /* AppDelegate.swift */,
 				32204B8E23ED860000E49290 /* SceneDelegate.swift */,
@@ -72,8 +80,6 @@
 				32204B9523ED860400E49290 /* Assets.xcassets */,
 				32204B9723ED860400E49290 /* LaunchScreen.storyboard */,
 				32204B9A23ED860400E49290 /* Info.plist */,
-				32204BA023ED864F00E49290 /* TestViewController.swift */,
-				32204BA123ED864F00E49290 /* TestViewController.xib */,
 			);
 			path = InMobiTest;
 			sourceTree = "<group>";
@@ -85,6 +91,25 @@
 				32204BA623ED89C900E49290 /* PhotoModel.swift */,
 			);
 			path = ModelClass;
+			sourceTree = "<group>";
+		};
+		32204BAD23ED8B9900E49290 /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				32204BA023ED864F00E49290 /* TestViewController.swift */,
+				32204BA123ED864F00E49290 /* TestViewController.xib */,
+			);
+			path = UIComponent;
+			sourceTree = "<group>";
+		};
+		32204BAE23ED8BA400E49290 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				32204BA923ED8AD800E49290 /* Presenter.swift */,
+				32204BAB23ED8B0800E49290 /* Interactor.swift */,
+				32D4741323ED8D3C00FA5A7D /* Controller.swift */,
+			);
+			path = Logic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,11 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D4741423ED8D3C00FA5A7D /* Controller.swift in Sources */,
 				32204BA723ED89C900E49290 /* PhotoModel.swift in Sources */,
+				32204BAA23ED8AD800E49290 /* Presenter.swift in Sources */,
 				32204B9123ED860000E49290 /* ViewController.swift in Sources */,
 				32204BA523ED89BB00E49290 /* PhotosModel.swift in Sources */,
 				32204B8D23ED860000E49290 /* AppDelegate.swift in Sources */,
 				32204BA223ED864F00E49290 /* TestViewController.swift in Sources */,
+				32204BAC23ED8B0800E49290 /* Interactor.swift in Sources */,
 				32204B8F23ED860000E49290 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
